@@ -23,7 +23,7 @@ To build a fresh image, just change to the directory containing the checked out
 files and run the below command:
 
 ```bash
-$ docker-compose build
+$ docker build -t bugzilla/bugzilla-dev .
 ```
 ## How to start Bugzilla Docker image
 
